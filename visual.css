@@ -1,0 +1,295 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "El Messiri", sans-serif;
+
+}
+
+header img {
+	height: 100px;
+	width: 175px;
+	font-family: "El Messiri", sans-serif;
+}
+
+header {
+	background-color: red;
+	padding: 0;
+	margin: 0;
+	font-family: "El Messiri", sans-serif;
+}
+
+
+.header {
+	display: flex;
+	font-family: "El Messiri", sans-serif;
+
+}
+
+.header nav {
+	margin-top: 40px;
+	font-family: "El Messiri", sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 20px;
+	font-size: 30px;
+	color: white;
+	opacity: 0.7;
+	font-family: "El Messiri", sans-serif;
+
+
+}
+main {
+	padding: 0;
+	margin: 0;
+	font-family: "El Messiri", sans-serif;
+}
+
+
+
+.phonemain {
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+    font-family: "El Messiri", sans-serif;
+}
+
+.phonemain img {
+    width: 100%;
+    height: auto;
+    transition: opacity 3s;
+    font-family: "El Messiri", sans-serif;
+}
+
+
+.phonemain .tooltip-text {
+    visibility: hidden;
+    width: 50%; 
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 3s, visibility 3s;
+    font-family: "El Messiri", sans-serif;
+}
+
+.phonemain:hover img {
+    opacity: 0.2; 
+    font-family: "El Messiri", sans-serif;
+}
+
+.phonemain:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    font-family: "El Messiri", sans-serif;
+}
+
+
+
+.mainhead {
+	background-image: url(https://www.arsenal.com/sites/default/files/styles/homepage_hero_landscape/public/images/new-home-kit-hero-landscape_0.png?auto=webp&itok=PlPlNpHL);
+	font-family: "El Messiri", sans-serif;
+}
+
+a:hover {
+	opacity: 1;
+	border-bottom: 3px solid white;
+	font-family: "El Messiri", sans-serif;
+
+
+}
+
+.f {
+	display: flex;
+	font-family: "El Messiri", sans-serif;
+}
+
+.f img {
+	height: 150px;
+	width: 200px;
+	padding: 50px;
+	margin: 20px;
+	font-family: "El Messiri", sans-serif;
+}
+
+footer {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	font-family: "El Messiri", sans-serif;
+
+}
+
+
+main img {
+	width: 100%;
+}
+
+footer img {
+	opacity: 0.5;
+}
+
+footer img:hover {
+	opacity: 1;
+}
+
+.latest div{
+	display: flex;
+	border: 1px solid grey;
+	border-radius: 1px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	font-family: "El Messiri", sans-serif;
+}
+
+
+.latest div img {
+	height: 120px;
+	width: 200px;
+	transition: filter 0.1s ease
+
+}
+
+.latest div img:hover {
+	filter: sepia(1) hue-rotate(-50deg) saturate(3);
+	transform: 2s;
+}
+
+.latest div p {
+	padding-top: 30px;
+	padding-left: 50px;
+	font-family: "El Messiri", sans-serif;
+}
+
+.latest h1 {
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: "El Messiri", sans-serif;
+}
+
+
+.tableimg {
+	height: 100%;
+	width: 600px;
+	padding-left: 650px;
+	padding-top: 30px;
+	padding-bottom: 300px;
+}
+
+.tablehead {
+	padding: 0;
+	margin: 0;
+	background-image: url("phone.jpg");
+	height: 200px;
+	color: white;
+	padding-top: 40px;
+	padding-left: 60px;
+	margin-bottom: 50px;
+	font-family: "El Messiri", sans-serif;
+	
+}
+
+.tablehead img {
+	padding: 0;
+	margin: 0;
+	font-family: "El Messiri", sans-serif;
+}
+
+.player {
+	display: flex;
+	width: 20%;
+	font-family: "El Messiri", sans-serif;
+}
+
+.topplayers {
+	display: flex;
+	font-family: "El Messiri", sans-serif;
+}
+
+
+.results {
+	color: white;
+	background-color: red;
+	font-size: 30px;
+	width: 35%;
+	margin-left: 200px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: "El Messiri", sans-serif;
+}
+
+.ressults {
+	display: flex;
+	font-family: "El Messiri", sans-serif;
+}
+
+.ressults img {
+	transition: filter 0.1s ease;
+	height: 70%;
+	font-family: "El Messiri", sans-serif;
+}
+
+.ressults img:hover {
+	filter: sepia(1) hue-rotate(-50deg) saturate(3);
+	transform: 2s;
+	font-family: "El Messiri", sans-serif;
+}
+
+.results:hover {
+	background-color: white;
+	color: red;
+	transition: 0.3s;
+	font-family: "El Messiri", sans-serif;
+}
+
+.topplayers {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	font-family: "El Messiri", sans-serif;
+}
+
+.moments {
+	display: flex;
+	margin-left: 100px;
+	font-family: "El Messiri", sans-serif;
+}
+
+.momvideo {
+	border: 2px solid red;
+	border-radius: 3px;
+	width: 13.8%;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: "El Messiri", sans-serif;
+
+}
+
+main p {
+	margin: 20px;
+	font-family: "El Messiri", sans-serif;
+}
+
+main h1 {
+	margin: 20px;
+	font-family: "El Messiri", sans-serif;
+}
+
+
+.main_page {
+	text-decoration: none;
+	font-family: "El Messiri", sans-serif;
+}
+
+.main_page:hover {
+	text-decoration: none;
+	font-family: "El Messiri", sans-serif;
+}
